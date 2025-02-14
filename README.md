@@ -1,4 +1,12 @@
+# NovaLift Landing Page
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Demo
+
+Check out the live demo: [Demo Link](https://your-demo-url-here.vercel.app)
+
+![Demo Screenshot](/novalift.png)
 
 ## Getting Started
 
