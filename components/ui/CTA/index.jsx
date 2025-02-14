@@ -8,9 +8,6 @@ const CTA = () => {
         <SectionWrapper id="cta" className="pb-0 bg-gray-900 dark:text-slate-100">
             <div className="custom-screen">
                 <div className="items-center gap-x-12 lg:flex">
-                    <div className="flex-1 sm:hidden lg:block">
-                        <Image src={ctaImage} className="rounded-lg md:max-w-lg" alt="Create Successful Business Models with Our IT Solutions" />
-                    </div>
                     <div className="max-w-xl mt-6 md:mt-0 lg:max-w-2xl">
                         <h2 className="text-3xl font-semibold sm:text-4xl">
                             Create Successful Business Models with Our IT Solutions
@@ -24,6 +21,9 @@ const CTA = () => {
                         >
                             Get started
                         </NavLink>
+                    </div>
+                    <div className="flex-1 sm:hidden lg:block">
+                        <Image src={ctaImage} className="rounded-lg md:max-w-lg" alt="Create Successful Business Models with Our IT Solutions" />
                     </div>
                 </div>
             </div>
