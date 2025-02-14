@@ -10,7 +10,7 @@ import ToolKit from "../components/ui/ToolKit";
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-gray-950">
       <Head>
         <meta name='robots' content='index' />
       </Head>
@@ -25,6 +25,6 @@ export default function Home() {
         <Testimonials />
       </GradientWrapper>
       <FooterCTA />
-    </>
+    </div>
   );
 }

@@ -14,24 +14,24 @@ export default function GetStarted() {
   return (
     <>
       <Head>
-        <title>Contact us - Blinder</title>
+        <title>Contact us - NovaLift</title>
       </Head>
       <div className='pt-28 pb-12'>
         <div className='custom-screen text-gray-600'>
           <div className='max-w-lg mx-auto gap-12 justify-between lg:flex lg:max-w-none'>
             <div className='max-w-lg sm:text-center lg:text-left'>
-              <h1 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                Talk to a Blinder expert
+              <h1 className='text-slate-200 text-3xl font-semibold sm:text-4xl'>
+                Talk to a NovaLift expert
               </h1>
-              <p className='mt-3'>
+              <p className='mt-3 text-slate-300'>
                 We are here to help. Get in touch with sales our press team and
                 let us know how we can help, or shoot us an email on{" "}
                 <a
-                  href='mailto:support@blinder.com'
+                  href='mailto:support@novalift.com'
                   target='_blank'
                   rel='noreferrer'
                   className='text-indigo-600 hover:text-indigo-400 font-medium duration-150'>
-                  support@blinder.com.
+                  support@novalift.com.
                 </a>
               </p>
             </div>
@@ -40,7 +40,7 @@ export default function GetStarted() {
                 onSubmit={(e) => e.preventDefault()}
                 className='space-y-5 font-medium'>
                 <div>
-                  <label>Full name</label>
+                  <label className='text-slate-300'>Full name</label>
                   <Input
                     aria-label='Full name'
                     type='text'
@@ -49,7 +49,7 @@ export default function GetStarted() {
                   />
                 </div>
                 <div>
-                  <label>Email</label>
+                  <label className='text-slate-300'>Email</label>
                   <Input
                     aria-label='Email'
                     type='email'
@@ -58,19 +58,19 @@ export default function GetStarted() {
                   />
                 </div>
                 <div>
-                  <label>Message</label>
+                  <label className='text-slate-300'>Message</label>
                   <textarea
                     aria-label='Message'
                     required
                     className='w-full mt-2 h-36 px-3 py-2 resize-none appearance-none bg-transparent outline-none border focus:border-indigo-600 shadow-sm rounded-lg'></textarea>
                 </div>
                 <div>
-                  <label>Service</label>
+                  <label className='text-slate-300'>Service</label>
                   <ul className='mt-3 flex flex-wrap gap-x-8 gap-y-3 font-normal max-w-md sm:gap-x-16'>
                     {servicesItems.map((item, idx) => (
                       <li key={idx} className='flex gap-x-2 items-center'>
                         <Checkbox id={`service-${idx}`} />
-                        <label htmlFor={`service-${idx}`} className='text-sm'>
+                        <label htmlFor={`service-${idx}`} className='text-sm text-slate-400'>
                           {item}
                         </label>
                       </li>
