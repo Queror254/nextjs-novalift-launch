@@ -4,7 +4,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Demo
 
-Check out the live demo: [Demo Link](https://your-demo-url-here.vercel.app)
+Check out the live demo: [Demo Link](![image](https://github.com/user-attachments/assets/1594814f-7694-43c0-9649-da9e3deaddfe)
+)
 
 ![Demo Screenshot](/novalift.png)
 
