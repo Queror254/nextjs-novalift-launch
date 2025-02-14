@@ -3,10 +3,9 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Demo
+>Check out the live demo: [Demo Link](https://nextjs-novalift-launch.vercel.app/)
 
-Check out the live demo: <img src="https://github.com/Queror254/nextjs-novalift-launch/blob/main/public/novalift.png">
-
-![Demo Screenshot](/novalift.png)
+![Demo Screenshot](https://github.com/Queror254/nextjs-novalift-launch/blob/main/public/novalift.png)
 
 ## Getting Started
 
