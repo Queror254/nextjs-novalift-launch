@@ -4,8 +4,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Demo
 
-Check out the live demo: [Demo Link](![image](https://github.com/user-attachments/assets/1594814f-7694-43c0-9649-da9e3deaddfe)
-)
+Check out the live demo: <img src="https://github.com/Queror254/nextjs-novalift-launch/blob/main/public/novalift.png">
 
 ![Demo Screenshot](/novalift.png)
 
